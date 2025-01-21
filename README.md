@@ -1,8 +1,6 @@
 # Laravel-Site-Deployment-on-aaPanel
 
 
-# Laravel Site Deployment on aaPanel
-
 This guide explains how to deploy a Laravel application on aaPanel, a free and open-source hosting control panel.
 
 
