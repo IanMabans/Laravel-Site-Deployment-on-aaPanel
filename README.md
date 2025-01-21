@@ -33,7 +33,7 @@ This guide explains how to deploy a Laravel application on aaPanel, a free and o
 3. Domain: Enter your domain or subdomain.
 4. Root Directory: Set it to /www/wwwroot/your-domain.
 5. PHP Version: Select the installed PHP version (e.g., 8.1).
-6. Install the relevant extensions
+6. Install the relevant extensions. <img width="792" alt="Image" src="https://github.com/user-attachments/assets/32594e80-6746-4ffc-8b0a-4e169af56b04" />
 
 
 
