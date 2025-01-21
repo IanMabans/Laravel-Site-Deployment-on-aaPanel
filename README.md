@@ -61,10 +61,11 @@ git clone https://github.com/your-repository.git .
 cd /www/wwwroot/your-domain
 composer install
 2. Install node. Remember to change the version of the node.js that matches the one used for development.
-3. Set Permissions:
+3. <img width="1718" alt="Image" src="https://github.com/user-attachments/assets/b95c8fc5-7f31-495c-9e04-1a33369a4241" />
+4. Set Permissions:
 chmod -R 755 "storage"
 chmod -R 755 "bootstrap/cache"
-4. Set Up the Environment File:
+5. Set Up the Environment File:
     Copy the .env.example file to .
     Update database credentials, app URL, and other configurations in the .env file.
     
