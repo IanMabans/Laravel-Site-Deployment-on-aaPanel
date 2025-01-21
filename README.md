@@ -26,7 +26,7 @@ This guide explains how to deploy a Laravel application on aaPanel, a free and o
   4. Composer
   5. Redis (optional, if your Laravel app uses it)
   6. Memcached
-  7. <img width="1718" alt="Image" src="https://github.com/user-attachments/assets/b95c8fc5-7f31-495c-9e04-1a33369a4241" />
+  7.<img width="1691" alt="Image" src="https://github.com/user-attachments/assets/25147771-6d00-4cf7-8da0-c4bcedc17054" />
 
 
 ## Step 2: Create a New Website
