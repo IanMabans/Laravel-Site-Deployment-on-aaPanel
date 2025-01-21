@@ -36,6 +36,8 @@ This guide explains how to deploy a Laravel application on aaPanel, a free and o
 4. Root Directory: Set it to /www/wwwroot/your-domain.
 5. PHP Version: Select the installed PHP version (e.g., 8.1).
 6. Install the relevant extensions. <img width="792" alt="Image" src="https://github.com/user-attachments/assets/32594e80-6746-4ffc-8b0a-4e169af56b04" />
+7. In addition there are configurations that need to be done on the php app FPM Profile as seen below
+   <img width="1709" alt="Image" src="https://github.com/user-attachments/assets/ccb47be7-f531-4665-ab8c-91c049da6c6b" />
 
 
 
@@ -87,11 +89,12 @@ Nginx Configuration
 2. Update the root directory to Laravel's public folder:
     root /www/wwwroot/your-domain/public;
     index index.php index.html;
-    location / {
-                 try_files $uri $uri/ /index.php?$query_string;
-         }
     
 3. Add the following Nginx rules for Laravel:
+       location / {
+                 try_files $uri $uri/ /index.php?$query_string;
+         }
+   
 
 
 
