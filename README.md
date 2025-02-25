@@ -94,6 +94,8 @@ Nginx Configuration
        location / {
                  try_files $uri $uri/ /index.php?$query_string;
          }
+
+   Here is a chagpt prompt showing the thread https://chatgpt.com/share/67bd978e-6c7c-8013-b3b1-d076a19afa5d
    
 
 
