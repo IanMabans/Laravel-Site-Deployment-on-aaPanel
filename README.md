@@ -8,8 +8,11 @@ This guide explains how to deploy a Laravel application on aaPanel, a free and o
 
 ## Prerequisites
 1. A server with aaPanel installed.
-2. A domain or subdomain configured to point to your server's IP.
-3. Basic knowledge of SSH and command-line tools.
+   If you dont have aaPanel installed visit this site  https://www.aapanel.com/new/download.html
+   where you can install the free version using this command in centos
+   URL=https://www.aapanel.com/script/install_7.0_en.sh && if [ -f /usr/bin/curl ];then curl -ksSO "$URL" ;else wget --no-check-certificate -O install_7.0_en.sh "$URL";fi;bash install_7.0_en.sh aapanel
+3. A domain or subdomain configured to point to your server's IP.
+4. Basic knowledge of SSH and command-line tools.
 
 
 ## Step 1: Set Up the Environment
