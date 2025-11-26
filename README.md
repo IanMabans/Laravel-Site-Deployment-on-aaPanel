@@ -108,3 +108,12 @@ Nginx Configuration
 1. Go to SSL in aaPanel.
 2. Issue a free Let's Encrypt certificate for your domain.
 3. Force HTTPS redirection in your web server settings.
+
+
+## Step 7: Configure timezone 
+1. Check current timezone - timedatectl
+2. Set timezone to Africa/Nairobi - sudo timedatectl set-timezone Africa/Nairobi
+3. Confirm timezone change - timedatectl
+You should now see:
+Time zone: Africa/Nairobi (EAT, +0300)
+
